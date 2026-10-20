@@ -1,6 +1,5 @@
 <template>
   <div class="about-page">
-    <!-- HERO -->
     <section class="about-hero">
       <div class="about-container">
         <div class="about-heading">
@@ -8,7 +7,7 @@
 
           <h1>
             More than just
-            <span>code.</span>
+            <span>code</span>
           </h1>
 
           <p>
@@ -24,10 +23,8 @@
       </div>
     </section>
 
-    <!-- ABOUT CONTENT -->
     <section class="about-content">
       <div class="about-grid">
-        <!-- IMAGE -->
         <div class="about-image">
           <div class="about-image-card">
             <img
@@ -45,7 +42,7 @@
 
           <h2>
             I love building things
-            <span>that matter.</span>
+            <span>that matter</span>
           </h2>
 
           <p>
@@ -60,7 +57,6 @@
             taking an idea and turning it into something real.
           </p>
 
-          <!-- QUICK INFO -->
           <div class="about-info">
             <div class="info-item">
               <span></span>
@@ -98,7 +94,7 @@
 
           <h2>
             How I
-            <span>work.</span>
+            <span>work</span>
           </h2>
         </div>
       </div>
@@ -150,12 +146,11 @@
       <span class="section-label"> WANT TO KNOW MORE? </span>
 
       <h2>
-        Let's create something
-        <span>meaningful.</span>
+        <span>VIEW MY WORK</span>
       </h2>
 
-      <RouterLink to="/contact" class="primary-button">
-        Let's Talk
+      <RouterLink to="/projects" class="primary-button">
+        Projects
         <span>↗</span>
       </RouterLink>
     </section>

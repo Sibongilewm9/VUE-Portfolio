@@ -7,7 +7,7 @@
 
         <h1>
           Experience that
-          <span>shaped me.</span>
+          <span>shaped me</span>
         </h1>
 
         <p class="experience-intro">
@@ -28,7 +28,7 @@
           <span></span>
           <div>
             <p class="section-label">EXPERIENCE</p>
-            <h2>Where I’ve made an impact.</h2>
+            <h2>Where I’ve made an impact</h2>
           </div>
         </div>
 
@@ -104,7 +104,7 @@
           <span></span>
           <div>
             <p class="section-label">EDUCATION</p>
-            <h2>What I’ve learned.</h2>
+            <h2>What I’ve learned</h2>
           </div>
         </div>
 
@@ -151,7 +151,7 @@
           <span></span>
           <div>
             <p class="section-label">LEADERSHIP & ACTIVITIES</p>
-            <h2>More than just a title.</h2>
+            <h2>More than just a title</h2>
           </div>
         </div>
 
@@ -203,7 +203,7 @@
           <span></span>
           <div>
             <p class="section-label">ACHIEVEMENTS</p>
-            <h2>Milestones I’m proud of.</h2>
+            <h2>Milestones I’m proud of</h2>
           </div>
         </div>
 
@@ -237,15 +237,12 @@
         <span>WHAT'S NEXT?</span>
 
         <h2>
-          Turning experience
+          Experience
           <br />
-          into <span>possibility.</span>
+          <span>to</span>
+          <br /> Possibility
         </h2>
 
-        <p>
-          I’m continuing to grow my technical skills and looking forward to
-          creating meaningful digital solutions.
-        </p>
 
         <RouterLink to="/contact" class="experience-cta-button">
           Let’s Connect

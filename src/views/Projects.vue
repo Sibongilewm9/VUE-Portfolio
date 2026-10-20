@@ -1,15 +1,12 @@
 <template>
   <div class="projects-page">
-    <!-- =========================
-         PAGE HERO
-    ========================== -->
     <section class="projects-hero">
       <div class="projects-container">
         <span class="section-label"> MY WORK </span>
 
         <h1>
           Projects I've
-          <span>Built.</span>
+          <span>Built</span>
         </h1>
 
         <p>
@@ -19,44 +16,42 @@
       </div>
     </section>
 
-    <!-- =========================
-         PROJECTS
-    ========================== -->
     <section class="projects-section">
       <div class="projects-grid">
         <!-- PROJECT 01 -->
         <article class="portfolio-project featured-project">
-          <div class="project-visual">
-            <div class="visual-number">01</div>
+         
+       <div class="project-visual">
+       <div class="visual-number">01</div>
 
-            <div class="visual-content">
-              <span>PROJECT PREVIEW</span>
-              <strong>01</strong>
-            </div>
-          </div>
+      <img
+        src="/images/kiddo-preview.png"
+        alt="KIDDO baby clothing online store preview"
+        class="project-preview-image"
+        />
+      </div>
+
 
           <div class="portfolio-project-content">
             <div class="project-meta">
-              <span>FULL-STACK APPLICATION</span>
+              <span>WEB APPLICATION</span>
               <span>2026</span>
             </div>
 
-            <h2>Project One</h2>
+            <h2>KIDDO WEBSITE</h2>
 
             <p>
-              Replace this description with information about your first
-              project. Explain what you built, the problem it solves and what
-              makes it unique.
+              KIDDO is a baby clothing e-commerce website designed to provide parents with a simple and enjoyable online shopping experience. The website features a welcoming homepage, a product catalogue showcasing baby clothing, product prices, and Add to Cart buttons. Designed with a clean layout and a soft, baby-friendly aesthetic, KIDDO makes browsing baby essentials easy and convenient.
             </p>
 
             <div class="technology-list">
-              <span>Vue</span>
-              <span>Node.js</span>
-              <span>MySQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
             </div>
 
             <div class="project-actions">
-              <a href="#" @click.prevent> GitHub ↗ </a>
+              <a href="https://github.com/Sibongilewm9/frontend.git" @click.prevent> GitHub ↗ </a>
 
               <a href="#" @click.prevent> Live Demo ↗ </a>
             </div>
@@ -65,30 +60,33 @@
 
         <!-- PROJECT 02 -->
         <article class="portfolio-project">
-          <div class="project-visual">
-            <div class="visual-number">02</div>
 
-            <div class="visual-content">
-              <span>PROJECT PREVIEW</span>
-              <strong>02</strong>
-            </div>
-          </div>
+<div class="project-visual">
+  <div class="visual-number">02</div>
+
+  <img
+    src="/images/luxury-rentals.png"
+    alt="Luxury Rentals property listing website"
+    class="project-preview-image"
+  />
+</div>
+
 
           <div class="portfolio-project-content">
             <div class="project-meta">
-              <span>WEB APPLICATION</span>
+              <span>PROPERTY LISTING WEBSITE</span>
               <span>2026</span>
             </div>
 
-            <h2>Project Two</h2>
+            <h2>LUXURY RENTALS</h2>
 
             <p>
-              Replace this with the description of your second project and
-              explain the technologies and ideas behind it.
+             Luxury Rentals is a property listing website designed to make finding rental properties simple and convenient. The platform displays a collection of properties with images, locations, property types, rental prices, and availability indicators. It also includes search and price-sorting features to help users find suitable properties, along with bookmark buttons for saving their favourites. The website combines a clean layout with an intuitive browsing experience.
             </p>
 
             <div class="technology-list">
               <span>HTML</span>
+              <span>Vite</span>
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
@@ -103,33 +101,39 @@
 
         <!-- PROJECT 03 -->
         <article class="portfolio-project">
-          <div class="project-visual">
-            <div class="visual-number">03</div>
+         
+<div class="project-visual">
+  <div class="visual-number">03</div>
 
-            <div class="visual-content">
-              <span>PROJECT PREVIEW</span>
-              <strong>03</strong>
-            </div>
-          </div>
+  <img
+    src="/images/moderntech-preview.png"
+    alt="ModernTech Solutions HR Management System dashboard"
+    class="project-preview-image"
+  />
+</div>
+
 
           <div class="portfolio-project-content">
             <div class="project-meta">
-              <span>SOFTWARE PROJECT</span>
+              <span>FULL-STACK HR MANAGEMENT SYSTEM</span>
               <span>2026</span>
             </div>
 
-            <h2>Project Three</h2>
+            <h2>ModernTech Solutions</h2>
 
             <p>
-              Replace this text with the details of your third project,
-              including its purpose and the experience you gained from building
-              it.
+             ModernTech Solutions is a full-stack Human Resources Management System developed to simplify HR processes for a healthcare software company. The platform includes secure login, an employee management system, payroll processing, leave requests, attendance tracking, performance reviews, and a dashboard displaying key HR statistics. Built with a Node.js and Express backend, MySQL database, and a responsive frontend, the system streamlines HR operations by replacing fragmented spreadsheets and emails with a centralised digital solution.
             </p>
 
             <div class="technology-list">
-              <span>Vue</span>
+              <span>HTML</span>
+              <span>CSS</span>
               <span>JavaScript</span>
-              <span>API</span>
+              <span>Vue3</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MySQL</span>
+              <span>Bootsrap</span>
             </div>
 
             <div class="project-actions">
@@ -143,31 +147,35 @@
         <!-- PROJECT 04 -->
         <article class="portfolio-project">
           <div class="project-visual">
-            <div class="visual-number">04</div>
-
-            <div class="visual-content">
-              <span>PROJECT PREVIEW</span>
-              <strong>04</strong>
-            </div>
-          </div>
-
+  <div class="visual-number">04</div>
+  <img
+    src="/images/team-alpha-preview.png"
+    alt="Team Alpha live data dashboard"
+    class="project-preview-image"
+  />
+</div>
           <div class="portfolio-project-content">
             <div class="project-meta">
-              <span>WEB DEVELOPMENT</span>
+              <span>FULL-STACK WEB APPLICATION</span>
               <span>2026</span>
             </div>
 
-            <h2>Project Four</h2>
+            <h2>Team Alpha — Live Data Showcase</h2>
 
             <p>
-              Replace this with the details of your fourth project. You can
-              include the technologies, features and challenges involved.
+             Team Alpha is a collaborative full-stack web application developed during a two-week Agile Scrum capstone project. The platform integrates a Vue.js frontend with a Python Flask backend to collect, process, and display live data scraped from external websites. It features an interactive dashboard, searchable data tables, website management, scraping controls, and statistics to help users explore aggregated information. The project demonstrates teamwork, API integration, web scraping, and dynamic data visualisation in a modern web application.
             </p>
 
             <div class="technology-list">
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>Vue.js</span>
+              <span>CSS3</span>
               <span>JavaScript</span>
+              <span>Python</span>
+              <span>BeautifulSoup</span>
+              <span>Flask</span>
+              <span>Axios</span>
+              <span>Vue Router</span>
+              <span>Pinia</span>
             </div>
 
             <div class="project-actions">
@@ -181,31 +189,35 @@
         <!-- PROJECT 05 -->
         <article class="portfolio-project">
           <div class="project-visual">
-            <div class="visual-number">05</div>
-
-            <div class="visual-content">
-              <span>PROJECT PREVIEW</span>
-              <strong>05</strong>
-            </div>
-          </div>
+  <div class="visual-number">05</div>
+  <img
+    src="/images/cleanspaces-preview.png"
+    alt="CleanSpaces community cleanup platform"
+    class="project-preview-image"
+  />
+</div>
 
           <div class="portfolio-project-content">
             <div class="project-meta">
-              <span>PERSONAL PROJECT</span>
+              <span>Community Cleanup & Subscription Platform</span>
               <span>2026</span>
             </div>
 
-            <h2>Project Five</h2>
+            <h2>CleanSpaces</h2>
 
             <p>
-              Replace this with the details of your fifth project and highlight
-              what you learned or achieved while building it.
+              CleanSpaces is a community-powered cleanup subscription platform designed to help neighbourhoods across the Cape Flats fund professional street-cleaning services. The platform allows residents to contribute toward zone-based cleanup subscriptions, track community participation, and view photographic proof of completed work. It features secure role-based authentication, online payment integration, cleanup requests, resident dashboards, and an administrative management panel. Built with Vue 3, Node.js, Express, and MySQL, CleanSpaces combines transparent payment tracking with practical tools to support cleaner, better-maintained communities.
             </p>
 
             <div class="technology-list">
-              <span>Vue</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
+              <span>Frontend
+Vue 3 · Vite · Vue Router · Leaflet.js</span>
+              <span>Backend
+Node.js · Express</span>
+              <span>Payments & email
+PayFast Sandbox · Nodemailer · Brevo SMTP</span>
+              <span>Other
+JavaScript · SweetAlert2 · JWT Authentication · Railway · Render</span>
             </div>
 
             <div class="project-actions">
@@ -218,15 +230,12 @@
       </div>
     </section>
 
-    <!-- =========================
-         CTA
-    ========================== -->
     <section class="projects-cta">
       <span class="section-label"> NEXT PROJECT? </span>
 
       <h2>
-        Maybe we build it
-        <span>together.</span>
+        We'll build it
+        <span>together</span>
       </h2>
 
       <p>
@@ -235,7 +244,7 @@
       </p>
 
       <RouterLink to="/contact" class="primary-button">
-        Let's Talk
+        Connect with me
         <span>↗</span>
       </RouterLink>
     </section>

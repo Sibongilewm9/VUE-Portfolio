@@ -113,7 +113,6 @@
         </div>
       </div>
     </section>
-    <!-- SKILLS BEYOND THE CODE -->
 
     <section class="skills-beyond-section">
       <div class="skills-container">
@@ -123,7 +122,7 @@
 
             <h2>
               Skills beyond
-              <span>the code.</span>
+              <span>the code</span>
             </h2>
 
             <p>
@@ -160,7 +159,7 @@
 
             <h2>
               My skills are<br />
-              <span>always evolving.</span>
+              <span>always evolving</span>
             </h2>
           </div>
 
@@ -177,11 +176,7 @@
     <section class="skills-cta">
       <div class="skills-container">
         <span>READY TO BUILD?</span>
-
-        <h2>
-          Let's turn an idea<br />
-          into something real.
-        </h2>
+        <p>I’m continuing to grow my technical skills and looking forward to creating meaningful digital solutions.</p>
 
         <div class="skills-cta-buttons">
           <RouterLink to="/projects" class="primary-button">

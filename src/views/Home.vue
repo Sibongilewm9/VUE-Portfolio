@@ -24,12 +24,12 @@
 
           <div class="hero-buttons">
             <RouterLink to="/projects" class="primary-button">
-              View My Work
+              View My Projects
               <span>↗</span>
             </RouterLink>
 
             <RouterLink to="/contact" class="secondary-button">
-              Let's Connect
+              Contact me
             </RouterLink>
           </div>
 
@@ -89,7 +89,7 @@
         </div>
 
         <div class="stat">
-          <strong>03<span>+</span></strong>
+          <strong>10<span>+</span></strong>
           <p>Technologies</p>
         </div>
 
@@ -126,19 +126,22 @@
           <div class="project-number"></div>
 
           <div class="project-content">
-            <span class="project-type"> FULL-STACK WEB APP </span>
+            <span class="project-type"> Community Cleanup & Subscription Platform </span>
 
             <h3>CleanSpaces</h3>
 
             <p>
-              A modern waste-management platform designed to connect communities
-              with cleaner and more sustainable environments.
+              CleanSpaces is a community-powered cleanup subscription platform designed to help neighbourhoods across the Cape Flats fund professional street-cleaning services. The platform allows residents to contribute toward zone-based cleanup subscriptions, track community participation, and view photographic proof of completed work. It features secure role-based authentication, online payment integration, cleanup requests, resident dashboards, and an administrative management panel. Built with Vue 3, Node.js, Express, and MySQL, CleanSpaces combines transparent payment tracking with practical tools to support cleaner, better-maintained communities.
             </p>
 
             <div class="project-tags">
-              <span>Vue</span>
-              <span>Node.js</span>
-              <span>MySQL</span>
+              <span>Frontend
+Vue 3 · Vite · Vue Router · Leaflet.js</span>
+              <span>Backend
+Node.js · Express</span>
+              <span>Other
+JavaScript · SweetAlert2 · JWT Authentication · Railway · Render</span>
+
             </div>
 
             <RouterLink to="/projects" class="project-link">
@@ -152,19 +155,24 @@
           <div class="project-number"></div>
 
           <div class="project-content">
-            <span class="project-type"> WEB DEVELOPMENT </span>
+            <span class="project-type"> FULL-STACK HR MANAGEMENT SYSTEM </span>
 
-            <h3>Modern Digital Experience</h3>
+            <h3>ModernTech Solutions</h3>
 
             <p>
-              A responsive web experience focused on modern interface design,
-              usability and engaging interactions.
+              ModernTech Solutions is a full-stack Human Resources Management System developed to simplify HR processes for a healthcare software company. The platform includes secure login, an employee management system, payroll processing, leave requests, attendance tracking, performance reviews, and a dashboard displaying key HR statistics. Built with a Node.js and Express backend, MySQL database, and a responsive frontend, the system streamlines HR operations by replacing fragmented spreadsheets and emails with a centralised digital solution.
+            
             </p>
 
             <div class="project-tags">
               <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
+              <span>Vue3</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MySQL</span>
+              <span>Bootsrap</span>
             </div>
 
             <RouterLink to="/projects" class="project-link">
@@ -176,9 +184,6 @@
       </div>
     </section>
 
-    <!-- =========================
-         CTA
-    ========================== -->
     <section class="home-cta">
       <div class="cta-glow"></div>
 
@@ -186,7 +191,7 @@
 
       <h2>
         LET'S BUILD
-        <span>SOMETHING GREAT.</span>
+        <span>TOGETHER</span>
       </h2>
 
       <p>
@@ -195,7 +200,7 @@
       </p>
 
       <RouterLink to="/contact" class="primary-button cta-button">
-        Start a conversation
+        Let's talk
         <span>↗</span>
       </RouterLink>
     </section>

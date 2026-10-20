@@ -75,7 +75,6 @@
             <div>
               <a href="#" @click.prevent>GitHub</a>
               <a href="#" @click.prevent>LinkedIn</a>
-              <a href="#" @click.prevent>Instagram</a>
             </div>
           </div>
         </div>
