@@ -2741,6 +2741,216 @@ main {
   box-shadow: 0 12px 35px rgba(167, 139, 250, 0.12);
 }
 
+
+/* ==============================
+   CERTIFICATIONS SECTION
+============================== */
+
+.certifications-section {
+  padding: 80px 0;
+}
+
+.certifications-heading {
+  max-width: 650px;
+  margin-bottom: 36px;
+}
+
+.certifications-heading h2 {
+  margin: 16px 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+}
+
+.certifications-heading h2 span {
+  color: var(--accent-color, #a78bfa);
+}
+
+.certifications-heading p {
+  max-width: 550px;
+  line-height: 1.8;
+  opacity: 0.75;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 30px;
+  border: 1px solid rgba(150, 150, 150, 0.25);
+  border-radius: 18px;
+  background: rgba(150, 150, 150, 0.04);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color, #a78bfa);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.certificate-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.certificate-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: rgba(167, 139, 250, 0.12);
+  color: var(--accent-color, #a78bfa);
+}
+
+.certificate-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.certificate-number {
+  font-size: 0.72rem;
+  letter-spacing: 1.8px;
+  opacity: 0.65;
+}
+
+.certificate-card h3 {
+  margin: 0 0 14px;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  line-height: 1.45;
+}
+
+.certificate-issuer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 0 18px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.certificate-issuer span {
+  opacity: 0.7;
+  font-size: 0.85rem;
+}
+
+.certificate-meta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: auto;
+  padding-top: 8px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.certificate-status {
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #22a06b;
+}
+
+.certificate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.certificate-btn {
+  display: inline-flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 11px 15px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.certificate-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.view-btn {
+  background: var(--accent-color, #a78bfa);
+  color: #fff;
+}
+
+.download-btn {
+  border-color: rgba(150, 150, 150, 0.4);
+  color: inherit;
+}
+
+.certificate-btn:focus-visible {
+  outline: 2px solid var(--accent-color, #a78bfa);
+  outline-offset: 4px;
+}
+
+
+/* Center the last certificate when it sits alone */
+.certifications-grid > .certificate-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: calc(50% - 12px);
+}
+
+
+@media (max-width: 650px) {
+  .certifications-section {
+    padding: 55px 0;
+  }
+
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    padding: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .certificate-card,
+  .certificate-btn {
+    transition: none;
+  }
+
+  .certificate-card:hover,
+  .certificate-btn:hover {
+    transform: none;
+  }
+}
+
+
 /* =========================================
    RESPONSIVE
 ========================================= */
@@ -3289,6 +3499,62 @@ main {
 
   box-shadow: 0 15px 40px rgba(255, 255, 255, 0.12);
 }
+
+
+/* =========================================
+   CONTACT FORM FEEDBACK
+========================================= */
+
+.form-feedback {
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  animation: feedback-appear 0.3s ease;
+}
+
+.form-feedback strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.form-feedback p {
+  margin: 7px 0 0;
+  line-height: 1.7;
+}
+
+.form-feedback.success {
+  color: #bbf7d0;
+  background: rgba(34, 197, 94, 0.09);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.form-feedback.error {
+  color: #fecaca;
+  background: rgba(239, 68, 68, 0.09);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+.send-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+@keyframes feedback-appear {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 /* =========================================
    RESPONSIVE

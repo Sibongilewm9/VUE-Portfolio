@@ -1,12 +1,10 @@
 <template>
   <header class="navbar">
     <div class="nav-container">
-      <!-- Logo -->
       <RouterLink to="/" class="logo">
         <span>SM</span>
       </RouterLink>
 
-      <!-- Navigation -->
       <nav class="nav-links" :class="{ show: menuOpen }">
         <RouterLink to="/" @click="closeMenu"> Home </RouterLink>
 
