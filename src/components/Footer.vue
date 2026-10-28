@@ -24,8 +24,20 @@
       <div class="footer-links">
         <h4>Connect</h4>
 
-        <a href="#" @click.prevent>GitHub</a>
-        <a href="#" @click.prevent>LinkedIn</a>
+        <a
+            href="https://github.com/Sibongilewm9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          GitHub ↗
+        </a>
+        <a
+         href="https://www.linkedin.com/feed/ "
+         target="_blank"
+         rel="noopener noreferrer"
+         >
+        LinkedIn ↗
+        </a>
       </div>
 
       <!-- CTA -->

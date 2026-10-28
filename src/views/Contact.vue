@@ -40,7 +40,6 @@ async function submitForm(event) {
 
 <template>
   <div class="contact-page">
-    <!-- Hero -->
     <section class="contact-hero">
       <div class="contact-container">
         <span class="section-label">LET'S CONNECT</span>
@@ -57,11 +56,9 @@ async function submitForm(event) {
       </div>
     </section>
 
-    <!-- Contact Content -->
     <section class="contact-section">
       <div class="contact-container contact-grid">
 
-        <!-- Contact Information -->
         <div class="contact-info">
           <span class="small-label">GET IN TOUCH</span>
 
@@ -75,7 +72,6 @@ async function submitForm(event) {
             or simply connect, feel free to reach out.
           </p>
 
-          <!-- Email -->
           <a
             href="mailto:wendy.s.mpeta@gmail.com"
             class="contact-card"
@@ -90,7 +86,6 @@ async function submitForm(event) {
             <span class="contact-arrow">↗</span>
           </a>
 
-          <!-- Phone -->
           <a
             href="tel:+27736588522"
             class="contact-card"
@@ -105,7 +100,6 @@ async function submitForm(event) {
             <span class="contact-arrow">↗</span>
           </a>
 
-          <!-- Location -->
           <div class="contact-card">
             <div class="contact-icon">◉</div>
 
@@ -115,7 +109,6 @@ async function submitForm(event) {
             </div>
           </div>
 
-          <!-- Social Links -->
           <div class="contact-socials">
           <span>FOLLOW ME</span>
 
@@ -139,7 +132,6 @@ async function submitForm(event) {
        </div>
         </div>
 
-        <!-- Contact Form -->
         <div class="contact-form-wrapper">
           <div class="form-heading">
             <span></span>
@@ -150,7 +142,6 @@ async function submitForm(event) {
             </div>
           </div>
 
-          <!-- Success Message -->
           <div
             v-if="successMessage"
             class="form-feedback success"
@@ -164,7 +155,6 @@ async function submitForm(event) {
             </p>
           </div>
 
-          <!-- Error Message -->
           <div
             v-if="errorMessage"
             class="form-feedback error"
@@ -188,7 +178,7 @@ async function submitForm(event) {
                   id="name"
                   name="name"
                   type="text"
-                  placeholder="John Doe"
+                  placeholder=""
                   autocomplete="name"
                   required
                   :disabled="isSubmitting"
@@ -202,7 +192,7 @@ async function submitForm(event) {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder=""
                   autocomplete="email"
                   required
                   :disabled="isSubmitting"
@@ -217,7 +207,7 @@ async function submitForm(event) {
                 id="subject"
                 name="subject"
                 type="text"
-                placeholder="What would you like to talk about?"
+                placeholder=""
                 required
                 :disabled="isSubmitting"
               />
@@ -230,7 +220,7 @@ async function submitForm(event) {
                 id="message"
                 name="message"
                 rows="6"
-                placeholder="Tell me a little about your project..."
+                placeholder=""
                 required
                 :disabled="isSubmitting"
               ></textarea>
@@ -250,7 +240,6 @@ async function submitForm(event) {
       </div>
     </section>
 
-    <!-- Call to Action -->
     <section class="contact-cta">
       <div class="contact-container">
         <span>HAVE AN IDEA?</span>

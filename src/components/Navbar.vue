@@ -1,3 +1,4 @@
+
 <template>
   <header class="navbar">
     <div class="nav-container">
@@ -6,30 +7,47 @@
       </RouterLink>
 
       <nav class="nav-links" :class="{ show: menuOpen }">
-        <RouterLink to="/" @click="closeMenu"> Home </RouterLink>
+        <RouterLink to="/" @click="closeMenu">
+          Home
+        </RouterLink>
 
-        <RouterLink to="/about" @click="closeMenu"> About </RouterLink>
+        <RouterLink to="/about" @click="closeMenu">
+          About
+        </RouterLink>
 
-        <RouterLink to="/projects" @click="closeMenu"> Projects </RouterLink>
+        <RouterLink to="/projects" @click="closeMenu">
+          Projects
+        </RouterLink>
 
-        <RouterLink to="/skills" @click="closeMenu"> Skills </RouterLink>
+        <RouterLink to="/skills" @click="closeMenu">
+          Skills
+        </RouterLink>
 
         <RouterLink to="/experience" @click="closeMenu">
           Experience
         </RouterLink>
 
-        <RouterLink to="/contact" @click="closeMenu"> Contact </RouterLink>
-
-        <RouterLink to="/contact" class="nav-button" @click="closeMenu">
-          Let's Talk
+        <RouterLink to="/contact" @click="closeMenu">
+          Contact
         </RouterLink>
+
+        <!-- View CV Button -->
+        <a
+          href="/Sibongile-Mpeta-CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="nav-button"
+          @click="closeMenu"
+        >
+          View CV <span aria-hidden="true">↗</span>
+        </a>
       </nav>
 
-      <!-- Mobile Menu -->
       <button
         class="menu-toggle"
         @click="toggleMenu"
         aria-label="Toggle navigation"
+        :aria-expanded="menuOpen"
       >
         ☰
       </button>

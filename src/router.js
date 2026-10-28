@@ -1,3 +1,4 @@
+
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -35,6 +36,15 @@ const router = createRouter({
       component: () => import("./views/Contact.vue"),
     },
   ],
+
+  // Start each new page at the top
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+
+    return { top: 0, left: 0 };
+  },
 });
 
 export default router;

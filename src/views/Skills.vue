@@ -25,7 +25,6 @@
           <!-- Frontend -->
           <article class="skill-card">
             <div class="skill-card-top">
-              <span class="skill-number">01</span>
               <div class="skill-icon">&lt;/&gt;</div>
             </div>
 
@@ -47,7 +46,6 @@
           <!-- Backend -->
           <article class="skill-card">
             <div class="skill-card-top">
-              <span class="skill-number">02</span>
               <div class="skill-icon">{ }</div>
             </div>
 
@@ -68,7 +66,6 @@
           <!-- Database -->
           <article class="skill-card">
             <div class="skill-card-top">
-              <span class="skill-number">03</span>
               <div class="skill-icon">DB</div>
             </div>
 
@@ -89,7 +86,6 @@
           <!-- Tools -->
           <article class="skill-card">
             <div class="skill-card-top">
-              <span class="skill-number">04</span>
               <div class="skill-icon">⚡</div>
             </div>
 
@@ -201,9 +197,11 @@
             <div class="certificate-actions">
               <a
                 href="/certificates/cybersecurity.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="certificate-btn view-btn"
               >
-                View PDF <span aria-hidden="true">↗</span>
+                View Certificate <span aria-hidden="true">↗</span>
               </a>
 
               <a
@@ -251,9 +249,11 @@
             <div class="certificate-actions">
               <a
                 href="/certificates/data-science.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="certificate-btn view-btn"
               >
-                View PDF <span aria-hidden="true">↗</span>
+                View Certificate<span aria-hidden="true">↗</span>
               </a>
 
               <a
@@ -308,6 +308,8 @@
             <div class="certificate-actions">
               <a
                 href="/certificates/youthcode-certificate.png"
+                  target="_blank"
+                 rel="noopener noreferrer"
                 class="certificate-btn view-btn"
               >
                 View Certificate <span aria-hidden="true">↗</span>
@@ -362,6 +364,8 @@
   <div class="certificate-actions">
     <a
       href="/certificates/best-digital-literacy.png"
+      target="_blank"
+      rel="noopener noreferrer"
       class="certificate-btn view-btn"
     >
       View Certificate <span aria-hidden="true">↗</span>
@@ -416,6 +420,8 @@
   <div class="certificate-actions">
     <a
       href="/certificates/yearbeyond-completion.png"
+      target="_blank"
+      rel="noopener noreferrer"
       class="certificate-btn view-btn"
     >
       View Certificate <span aria-hidden="true">↗</span>

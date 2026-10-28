@@ -37,9 +37,21 @@
           <div class="hero-socials">
             <span>Find me on</span>
 
-            <a href="#" aria-label="GitHub"> GitHub </a>
+        <a
+            href="https://github.com/Sibongilewm9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          GitHub ↗
+        </a>
 
-            <a href="#" aria-label="LinkedIn"> LinkedIn </a>
+        <a
+         href="https://www.linkedin.com/feed/ "
+         target="_blank"
+         rel="noopener noreferrer"
+         >
+        LinkedIn ↗
+        </a>
           </div>
         </div>
 
