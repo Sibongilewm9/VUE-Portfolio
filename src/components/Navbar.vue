@@ -31,16 +31,6 @@
           Contact
         </RouterLink>
 
-        <!-- View CV Button -->
-        <a
-          href="/Sibongile-Mpeta-CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="nav-button"
-          @click="closeMenu"
-        >
-          View CV <span aria-hidden="true">↗</span>
-        </a>
       </nav>
 
       <button

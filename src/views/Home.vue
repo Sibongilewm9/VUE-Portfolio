@@ -1,3 +1,7 @@
+<script setup>
+import ProjectShowcase from '../components/ProjectShowcase.vue'
+</script>
+
 <template>
   <div class="home-page">
     <section class="hero">
@@ -195,6 +199,8 @@ JavaScript · SweetAlert2 · JWT Authentication · Railway · Render</span>
         </article>
       </div>
     </section>
+
+    <ProjectShowcase />
 
     <section class="home-cta">
       <div class="cta-glow"></div>

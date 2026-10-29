@@ -1,4 +1,3 @@
-
 <template>
   <div class="projects-page">
     <!-- Hero -->
@@ -64,14 +63,6 @@
                 rel="noopener noreferrer"
               >
                 GitHub ↗
-              </a>
-
-              <a
-                href="https://sibongilewm9.github.io/frontend/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo ↗
               </a>
             </div>
           </div>
@@ -197,6 +188,59 @@
                 rel="noopener noreferrer"
               >
                 Backend ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 01: KIDDO -->
+        <article class="portfolio-project featured-project">
+          <div class="project-visual">
+            <div class="visual-number"></div>
+
+            <img
+              src="/images/fitwell-preview.png"
+              alt="fitwell-preview"
+              class="project-preview-image"
+            />
+          </div>
+
+          <div class="portfolio-project-content">
+            <div class="project-meta">
+              <span>Start-up Launch Challenge</span>
+              <span>2026</span>
+            </div>
+
+            <h2>Fitness Coaching Website</h2>
+
+            <p>
+              Collaborated with a team to design and develop a startup website as part of a web development learning challenge. Applied frontend development, UI/UX design, version control, and the Software Development Life Cycle (SDLC). Worked with Figma to implement the design and GitHub to manage collaboration and code changes. Overcame merge conflicts and design implementation challenges through teamwork, communication, and problem-solving.
+            </p>
+
+            <div class="technology-list">
+              <span>HTML5</span>
+              <span>Figma</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>GitHub</span>
+              <span>Software Development Life Cycle</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://lnkd.in/d_GHPKNb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="https://lnkd.in/dCKAsuzC"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
               </a>
             </div>
           </div>
