@@ -7,10 +7,8 @@ import ProjectShowcase from '../components/ProjectShowcase.vue'
     <section class="hero">
       <div class="hero-container">
         <div class="hero-content">
-          <div class="hero-badge">
-            <span class="status-dot"></span>
-            AVAILABLE FOR OPPORTUNITIES
-          </div>
+          
+          
 
           <p class="hero-intro">HELLO, I'M</p>
 
@@ -21,9 +19,9 @@ import ProjectShowcase from '../components/ProjectShowcase.vue'
           </h1>
 
           <p class="hero-description">
-            A passionate developer focused on creating modern, interactive and
-            meaningful digital experiences through clean code and creative
-            design.
+              I'm a creative web developer passionate about building responsive,
+              user-friendly applications and turning ideas into meaningful digital
+              experiences.
           </p>
 
           <div class="hero-buttons">
@@ -37,26 +35,6 @@ import ProjectShowcase from '../components/ProjectShowcase.vue'
             </RouterLink>
           </div>
 
-          <!-- SOCIALS -->
-          <div class="hero-socials">
-            <span>Find me on</span>
-
-        <a
-            href="https://github.com/Sibongilewm9"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          GitHub ↗
-        </a>
-
-        <a
-         href="https://www.linkedin.com/feed/ "
-         target="_blank"
-         rel="noopener noreferrer"
-         >
-        LinkedIn ↗
-        </a>
-          </div>
         </div>
 
         <div class="hero-visual">
@@ -115,8 +93,8 @@ import ProjectShowcase from '../components/ProjectShowcase.vue'
         </div>
 
         <div class="stat">
-          <strong>01</strong>
-          <p>Developer</p>
+          <strong>100%</strong>
+          <p>Dedication</p>
         </div>
       </div>
     </section>
@@ -147,16 +125,20 @@ import ProjectShowcase from '../components/ProjectShowcase.vue'
             <h3>CleanSpaces</h3>
 
             <p>
-              CleanSpaces is a community-powered cleanup subscription platform designed to help neighbourhoods across the Cape Flats fund professional street-cleaning services. The platform allows residents to contribute toward zone-based cleanup subscriptions, track community participation, and view photographic proof of completed work. It features secure role-based authentication, online payment integration, cleanup requests, resident dashboards, and an administrative management panel. Built with Vue 3, Node.js, Express, and MySQL, CleanSpaces combines transparent payment tracking with practical tools to support cleaner, better-maintained communities.
-            </p>
-
+  CleanSpaces is a community-powered platform that helps Cape Flats
+  neighbourhoods organise and fund professional street-cleaning
+  services. It features subscriptions, online payments, cleanup
+  tracking, photo proof, and resident and admin dashboards.
+</p>
             <div class="project-tags">
-              <span>Frontend
-Vue 3 · Vite · Vue Router · Leaflet.js</span>
-              <span>Backend
-Node.js · Express</span>
-              <span>Other
-JavaScript · SweetAlert2 · JWT Authentication · Railway · Render</span>
+              <span>Vite</span>
+              <span>Vue Router</span>
+              <span>Leaflet.js</span>
+              <span>Node.js</span>
+              <span>Backend</span>
+              <span>SweetAlert2 </span>
+              <span>JWT Authentication</span>
+              <span>JavaScript</span>
 
             </div>
 
@@ -175,10 +157,12 @@ JavaScript · SweetAlert2 · JWT Authentication · Railway · Render</span>
 
             <h3>ModernTech Solutions</h3>
 
-            <p>
-              ModernTech Solutions is a full-stack Human Resources Management System developed to simplify HR processes for a healthcare software company. The platform includes secure login, an employee management system, payroll processing, leave requests, attendance tracking, performance reviews, and a dashboard displaying key HR statistics. Built with a Node.js and Express backend, MySQL database, and a responsive frontend, the system streamlines HR operations by replacing fragmented spreadsheets and emails with a centralised digital solution.
-            
-            </p>
+           <p>
+  ModernTech Solutions is a full-stack HR management system designed
+  to simplify workplace operations. It includes employee management,
+  payroll processing, leave requests, attendance tracking, and
+  performance reviews through a centralised dashboard.
+</p>
 
             <div class="project-tags">
               <span>HTML</span>

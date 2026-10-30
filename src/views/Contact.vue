@@ -42,7 +42,7 @@ async function submitForm(event) {
   <div class="contact-page">
     <section class="contact-hero">
       <div class="contact-container">
-        <span class="section-label">LET'S CONNECT</span>
+        <span class="section-label">LET'S WORK TOGETHER</span>
 
         <h1>
           Let's create<br />
@@ -242,17 +242,12 @@ async function submitForm(event) {
 
     <section class="contact-cta">
       <div class="contact-container">
-        <span>HAVE AN IDEA?</span>
-
+       
         <h2>
           Let's make it<br />
           <span>happen.</span>
         </h2>
 
-        <a href="mailto:wendy.s.mpeta@gmail.com">
-          Email Me
-          <span>↗</span>
-        </a>
       </div>
     </section>
   </div>

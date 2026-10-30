@@ -245,7 +245,7 @@
 
 
         <RouterLink to="/contact" class="experience-cta-button">
-          Let’s Connect
+          Let’s Talk
           <span>↗</span>
         </RouterLink>
       </div>
